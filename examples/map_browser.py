@@ -44,8 +44,8 @@ RelativeLayout:
         #on_map_relocated: mapview3.sync_to(self)
 
         MapMarker:
-            lat: 50.6394
-            lon: 3.057
+            lat: 19.07
+            lon: 72.87
 
         MapMarker
             lat: -33.867
@@ -54,8 +54,8 @@ RelativeLayout:
     Toolbar:
         top: root.top
         Button:
-            text: "Move to Lille, France"
-            on_release: mapview.center_on(50.6394, 3.057)
+            text: "Move to Mumbai"
+            on_release: mapview.center_on(19.07, 72.87)
         Button:
             text: "Move to Sydney, Autralia"
             on_release: mapview.center_on(-33.867, 151.206)

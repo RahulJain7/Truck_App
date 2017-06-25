@@ -15,7 +15,7 @@ MapView:
     lat: 50.6394
     lon: 3.057
     zoom: 13
-    map_source: MapSource(sys.argv[1], attribution="") if len(sys.argv) > 1 else "osm"
+    map_source: MapSource(sys.argv[1], attribution="") if len(sys.argv) > 1 else "Google"
 
     MapMarkerPopup:
         lat: 50.6394

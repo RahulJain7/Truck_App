@@ -21,6 +21,7 @@ class MapSource(object):
     # list of available providers
     # cache_key: (is_overlay, minzoom, maxzoom, url, attribution)
     providers = {
+        "Google":(0,2,24,"http://mts0.google.com/vt/lyrs=m@189000000&hl=en&src=app&x={x}&y={y}&z={z}&s={s}",""),
         "osm": (0, 0, 19, "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", attribution_osm),
         "osm-hot": (0, 0, 19, "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", ""),
         "osm-de": (0, 0, 18, "http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png", "Tiles @ OSM DE"),
